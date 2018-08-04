@@ -1,0 +1,103 @@
+#secfieldset {
+  margin-top:20px;
+}
+
+/*current project   who r we*/
+
+  #current-project {
+    background: #909090;
+    clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
+  }
+
+  .current-project-photo {
+    position: relative;
+    min-height: 50vh;
+  }
+
+  .current-project {
+    width: 50%;
+    height: 60%;
+    position: absolute;
+    transition: all 2s ease-in-out;
+  }
+
+  .current-project:hover {
+    z-index: 10;
+    transform: scale(1.1);
+  }
+
+  .current-project-1 {
+    top: 0;
+    left: 10%;
+    transform: rotate(-15deg);
+    z-index: 20;
+  }
+
+
+
+  .current-project-2 {
+    top: 0;
+    left: 46%;
+    transform: rotate(8deg);
+    z-index: 30;
+  }
+
+  .current-project-3 {
+    top: 40%;
+    left: 3%;
+    transform: rotate(-5deg);
+  }
+
+  .current-project-4 {
+    top: 41%;
+    left: 40%;
+    transform: rotate(38deg);
+  }
+
+  .current-project:hover {
+    transform: scale(1.1);
+    z-index: 50;
+  }
+
+  /*posts*/
+
+  #posts .card {
+    background: transparent!important;
+    border: none;
+    position: relative;
+  }
+
+  #posts .card-img-top {
+    border-radius: 0!important;
+  }
+
+  #posts .card-footer {
+    background: transparent;
+
+  }
+
+  .post-link {
+    color: #2a9134;
+    transition: all 1s ease-in-out;
+  }
+
+  .post-link:hover {
+    color: #dd0000;
+    text-decoration: none;
+
+  }
+
+  .corner-text {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #dd0000;
+    opacity: 0;
+    transition: all 1s ease-in-out;
+  }
+
+  #posts .card:hover .corner-text {
+    opacity: 1;
+  }
+
+  
